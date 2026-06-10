@@ -36,6 +36,27 @@ The project is built using the MVVM-R (Model-View-ViewModel-Router) design patte
 3. ViewModel: Acts as a bridge between the Model and the View. It prepares data for presentation, handles user actions, and manages the view's state.
 4. Router: Manages the navigation flow of the application, decoupling ViewControllers from each other.
 5. Repository: Abstracts the data source, providing a clean API for the ViewModel to fetch data from the network.
-6 .NetworkClient: A generic, async/await-based client for handling all network requests.
+6. NetworkClient: A generic, async/await-based client for handling all network requests.
+7. AppContainer: Wires everything together and builds the concrete dependencies used by the screens.
 
 ---
+
+## Setup
+
+### Requirements
+
+- Xcode 26+
+- iOS 26+
+- Swift 6
+
+### Build & Run
+
+```bash
+git clone https://github.com/Omkar492/products-app.git
+```
+
+## Author
+
+- [Omkar Chougule](https://www.linkedin.com/in/omkar492) 🙋‍♂️
+
+
